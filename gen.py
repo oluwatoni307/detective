@@ -14,7 +14,7 @@ message_queue = Queue()
 api_key = os.getenv('api_key')
 
 config = {
-    "config_list": [{"model": "gpt-4o-mini", "api_key": api_key,         "temperature": 0.7,  # Adjust this value as needed        "max_tokens": 300  # Set the maximum tokens for output
+    "config_list": [{"model": "gpt-4o-mini", "api_key": api_key,         "temperature": 0.7,  # Adjust this value as needed       
 
 }],
     "cache_seed": None,
