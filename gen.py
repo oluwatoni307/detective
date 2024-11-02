@@ -73,6 +73,8 @@ def initiate_phase(phase_num, initial_message):
 
         # Initialize group chat
     group_chat = GroupChat(
+                max_round=16,
+
         agents=[Kouhei, masami, susumu],
         messages=[] if phase_num == 1 else phase_messages,
         # max_round=4 if phase_num == 1 else None,  # Only set max_round if phase_num is 1
@@ -83,7 +85,6 @@ def initiate_phase(phase_num, initial_message):
     group_chat_manager = GroupChatManager(
         groupchat=group_chat,
         llm_config=config,
-        max_round=16,
         # system_message=f"moderator_{phase_num}",
         is_termination_msg=lambda msg: "TERMINATE" in msg["content"].lower(),
     )
