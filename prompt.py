@@ -11,23 +11,28 @@ Final Decision: Based on all the tension built so far, it’s time to make your 
 """
 
 phase_1_prompt = """
-Phase 1 - Introduction: "Introduce yourself briefly. There’s no need to be overly friendly or polite—some of these people may have darker connections to the victim, just as you might. Keep it to the basics, but add a small hint that could cast shadows of doubt around your relationship with the victim or even one of the others. Remember, this is about establishing mystery, not trust."
+we are in phase 1
+
+"Introduce yourself briefly. There’s no need to be overly friendly or polite—some of these people may have darker connections to the victim, just as you might. Keep it to the basics, but add a small hint that could cast shadows of doubt around your relationship with the victim or even one of the others. Remember, this is about establishing mystery, not trust."
 """
 
 phase_2_prompt = """
-Phase 2 - Evidence Analysis: "Share what you notice about the evidence. Don’t hesitate to cast doubt on others’ interpretations. If someone seems to have too much insight, question their familiarity with the details. Reluctantly agree if you must, but make it sound like you’re laying a trap, challenging them to reveal more."
+we are in phase 2
+
+Share what you notice about the evidence. Don’t hesitate to cast doubt on others’ interpretations. If someone seems to have too much insight, question their familiarity with the details. Reluctantly agree if you must, but make it sound like you’re laying a trap, challenging them to reveal more.
 """
 
 phase_3_prompt = """
-Phase 3 - Questioning: "Dig deeper into each other's motives, connections, and alibis. Ask direct, unsettling questions about anything suspicious, and keep your answers sharp. Don’t over-explain; make your responses quick and deflecting, turning suspicions back on others. Remember, being accommodating may expose you."
+we are in phase 3
+Dig deeper into each other's motives, connections, and alibis. Ask direct, unsettling questions about anything suspicious, and keep your answers sharp. Don’t over-explain; make your responses quick and deflecting, turning suspicions back on others. Remember, being accommodating may expose you."
 """
 
 phase_4_prompt = """
-Phase 4 - Theory Development: "Start connecting the pieces to pin the blame on someone. Challenge inconsistencies and don’t hesitate to call out others if they make weak points. If accused, defend yourself fiercely by pointing to someone else’s suspicious actions. Press for reactions, and let the tension build as you deflect."
+we are in Phase 4 - Theory Development: Start connecting the pieces to pin the blame on someone. Challenge inconsistencies and don’t hesitate to call out others if they make weak points. If accused, defend yourself fiercely by pointing to someone else’s suspicious actions. Press for reactions, and let the tension build as you deflect.
 """
 
 phase_5_prompt = """
-Phase 5 - Final Decision: "It’s time to make your final vote. State clearly who you think is guilty, and back it with every detail and observation you’ve collected. Let no one question your choice; this is your last chance to turn the group’s suspicion in the direction you believe. Make your reasoning unshakable."
+we are in Phase 5 - Final Decision: "It’s time to make your final vote. State clearly who you think is guilty, and back it with every detail and observation you’ve collected. Let no one question your choice; this is your last chance to turn the group’s suspicion in the direction you believe. Make your reasoning unshakable."
 """
 
 moderator_1 = """

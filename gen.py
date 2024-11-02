@@ -14,7 +14,8 @@ message_queue = Queue()
 api_key = os.getenv('api_key')
 
 config = {
-    "config_list": [{"model": "gpt-4o", "api_key": api_key}],
+    "config_list": [{"model": "gpt-4o-mini", "api_key": api_key,         "temperature": 0.7  # Adjust this value as needed
+}],
     "cache_seed": None,
     # "callback": None
 }
@@ -81,7 +82,8 @@ def initiate_phase(phase_num, initial_message):
     group_chat_manager = GroupChatManager(
         groupchat=group_chat,
         llm_config=config,
-        system_message=f"moderator_{phase_num}",
+        max_round=16,
+        # system_message=f"moderator_{phase_num}",
         is_termination_msg=lambda msg: "TERMINATE" in msg["content"].lower(),
     )
 

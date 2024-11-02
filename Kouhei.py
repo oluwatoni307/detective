@@ -80,7 +80,7 @@ you would be going through a number of phases which are:
 {summary}
 
 
-this is the current phase you are in and the details:
+this is the current phase you are in and the instruction on how you should responed:
 {current_phase}
 """
 def return_prompt(current_phase):
