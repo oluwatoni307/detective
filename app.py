@@ -31,7 +31,7 @@ def stream():
             if not message_queue.empty():
                 msg = message_queue.get()
                 yield f"data: {json.dumps(msg)}\n\n"
-            time.sleep(0.1)
+            time.sleep(1.5)
 
     return Response(generate(), mimetype='text/event-stream')
 
