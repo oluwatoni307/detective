@@ -1,4 +1,4 @@
-phase_summary = """
+phase_sumary = """
 Introduction: Each player introduces themselves—name, profession, and a connection to the victim. Remember, everyone is a suspect. Introduce yourself in a way that barely scratches the surface but hints at possible motives or strained relationships. Avoid friendly tones; any one of these people might know something incriminating.
 
 Evidence Analysis: As you examine the crime scene together, doubt each other's intentions. Any observation you make might turn into an accusation later. If someone seems overly familiar with the details, don’t hesitate to voice your suspicion. Let your responses be sharp, leaving subtle barbs or hints of distrust.
